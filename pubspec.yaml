@@ -1,0 +1,18 @@
+name: 'girar_tetris'
+version: 0.0.1
+description: Un reto de gammafp
+author: Kolesias <ivan-bravo@woots.mx>
+homepage: https://www.forozone.es/programacion-general/reto-de-girado-de-una-pieza-de-tetris-(disponible-para-cualquier-lenguaje)/
+
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+
+#dependencies:
+#  my_dependency: any
+
+dev_dependencies:
+  browser: '>=0.10.0 <0.11.0'
+  dart_to_js_script_rewriter: '^1.0.1'
+
+transformers:
+- dart_to_js_script_rewriter
